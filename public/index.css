@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(90deg, #edc0bf 0,#c4caef 60%);
+}
+
+header {
+  margin: auto;
+  height: 90vh;
+  width: 90%;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  border-radius: 25px;
+  position: relative;
+}
+
+header .navbar {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  padding: 25px 50px;
+  border-radius: 5px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .home a {
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  -webkit-animation: fadein 2s;
+  animation: fadein 2s;
+}
+
+.navbar .home a:hover {
+  color: #fff;
+}
+
+.navbar .menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navbar .menu li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+.navbar .menu a {
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  -webkit-animation: fadein 2s;
+  animation: fadein 2s;
+}
+
+.navbar .menu a:hover {
+  color: #fff;
+}
+
+ header .text-content {
+   margin: 150px 20%;
+ }
+
+.text-content h2 {
+  font-size: 60px;
+  font-weight: 600;
+  -webkit-animation: fadein 2s;
+          animation: fadein 2s;
+}
+
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}

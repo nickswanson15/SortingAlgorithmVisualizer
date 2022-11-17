@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="icon.ico" type="image/icon type">
+        <link rel="stylesheet" href="sort.css">
+        <title>Insertion Sort</title>
+    </head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="home"><a href="/index.html">HOME</a></div>
+            <div class="slide">
+                <div class="size">
+                    <label for="arraySizeInput">SIZE:</label><input id="arraySizeInput" type="range" name="arraySizeInput"
+                    min="2" max="100" value="58" oninput="render()" onchange="render()">
+                </div>
+                <div class="speed">
+                    <label for="arraySpeedInput">SPEED:</label><input id="arraySpeedInput" type="range" name="arraySpeedInput"
+                    min="-400" max="0" value="-200">
+                </div>
+            </div>
+            <div class="button">
+                <div class="generate">
+                    <input type="button" id="generateNewArray" onclick="render(), enable()" value="GENERATE">
+                </div>
+                <div class="sort">
+                    <input type="button" id ="insertionSort" onclick="reset(), insertionSort()" value="SORT">
+                </div>
+            </div>
+        </nav>
+        <div id="container"></div>
+    </header>
+    <script src="insertion.js"></script>
+</body>
+</html>
