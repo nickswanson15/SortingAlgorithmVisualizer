@@ -1,4 +1,4 @@
 # Sorting Algorithm Visualizer
-JavaScript web application that visualizes bubble sort, quick sort, merge sort, and insertion sort.
+JavaScript web application that visualizes sorting algorithms. Implemented Bubble Sort, Quick Sort, Merge Sort, and Insertion Sort.
 
 https://sortingalgorithmvisualizer.onrender.com/
