@@ -4,13 +4,13 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="icon.ico" type="image/icon type">
-        <link rel="stylesheet" href="sort.css">
-        <title>Merge Sort</title>
+        <link rel="stylesheet" href="/sort.css">
+        <title>Bubble Sort</title>
     </head>
 <body>
     <header>
         <nav class="navbar">
-            <div class="home"><a href="index.html">HOME</a></div>
+            <div class="home"><a href="/index.html">HOME</a></div>
             <div class="slide">
                 <div class="size">
                     <label for="arraySizeInput">SIZE:</label><input id="arraySizeInput" type="range" name="arraySizeInput"
@@ -26,12 +26,12 @@
                     <input type="button" id="generateNewArray" onclick="render(), enable()" value="GENERATE">
                 </div>
                 <div class="sort">
-                    <input type="button" id ="mergeSort" onclick="reset(), mergeSort()" value="SORT">
+                    <input type="button" id ="bubbleSort" onclick="reset(), bubbleSort()" value="SORT">
                 </div>
             </div>
         </nav>
         <div id="container"></div>
     </header>
-    <script src="merge.js"></script>
+    <script src="bubble.js"></script>
 </body>
 </html>
